@@ -13,6 +13,6 @@ public class HelloWorldTest {
 	@Test
 	public void test() throws Exception {
 		HelloWorldResponse response = controller.helloWorld();
-		assertEquals("Goodbye World2", response.getResponse());
+		assertEquals("Hello World", response.getResponse());
 	}
 }
